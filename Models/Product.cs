@@ -5,7 +5,7 @@ namespace Productos.Models
         public Product(string productName, DateTime validUntilDate, decimal cost, int avaliability)
         {
             ProductName=productName;
-            CreationDate=DateTime.Now();
+            CreationDate=DateTime.Now;
             ValidUntilDate=validUntilDate;
             Cost=cost;
             Avaliability=avaliability;
